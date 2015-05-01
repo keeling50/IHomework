@@ -1,0 +1,76 @@
+"#calendarContainer":{
+	backgroundColor:'#FFFFFF',
+	height:320,
+	width:320,
+	layout:'vertical'
+},
+"#topDate":{
+	top:0,
+	height:40,
+	width:Ti.UI.FILL,
+	backgroundColor:'transparent'
+},
+"#topDateLabel":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.SIZE,
+	font:{fontSize:17},
+	color:'#2ECCFA'
+},
+"#topSeparator":{
+	width:Ti.UI.FILL,
+	height:2,
+	backgroundGradient:{
+        type: 'linear',
+        startPoint: { x: '0%', y: '50%' },
+        endPoint: { x: '100%', y: '50%' },
+        colors: [ { color: '#086A87', offset: 0.0}, { color: '#045FB4', offset: 0.25 }, { color: '#0080FF', offset: 1.0 } ],
+   },
+	top:0
+},
+"#month_year_view":{
+	height:40,
+	width:Ti.UI.FILL,
+	top:0,
+	backgroundColor:'transparent',
+	layout:'horizontal'
+},
+".mothDateView":{
+	height:40,
+	width:'49.5%',
+	left:0,
+},
+"#verticalSeparator":{
+	height:40,
+	width:'0.5%',
+	left:0,
+	backgroundGradient:{
+        type: 'linear',
+        startPoint: { x: '0%', y: '50%' },
+        endPoint: { x: '100%', y: '50%' },
+        colors: [ { color: '#086A87', offset: 0.0}, { color: '#045FB4', offset: 0.25 }, { color: '#0080FF', offset: 1.0 } ],
+   }
+},
+".month_year_label":{
+	font:{
+		fontSize:12
+	},
+	height:Ti.UI.SIZE,
+	left:42,
+	right:42,
+	color:'#424242',
+	textAlign:'center'
+},
+"#daysView":{
+	height:20,
+	width:Ti.UI.FILL,
+	top:0,
+	backgroundColor:'#FFFFFF',
+	layout:'horizontal'
+},
+"#datesView":{
+	top:0,
+	bottom:0,
+	width:Ti.UI.FILL,
+	backgroundColor:'transparent',
+	layout:'vertical'
+}

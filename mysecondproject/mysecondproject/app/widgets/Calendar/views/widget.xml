@@ -1,0 +1,23 @@
+<Alloy>
+	<View id="calendarContainer">
+		<View id="topDate">
+			<Label id="topDateLabel"/>
+		</View>
+		<View id="topSeparator"/>
+		<View id="month_year_view">
+			<View id="monthView" class="mothDateView">
+				<Widget src="Calendar" name="Arrow" id="previousMonth"/>
+				<Label id="monthNameLabel" class="month_year_label"/>
+				<Widget src="Calendar" name="Arrow" id="nextMonth"/>
+			</View>
+			<View id="verticalSeparator"/>
+			<View id="yearView" class="mothDateView">
+				<Widget src="Calendar" name="Arrow" id="previousYear"/>
+				<Label id="yearNameLabel" class="month_year_label"/>
+				<Widget src="Calendar" name="Arrow" id="nextYear"/>
+			</View>
+		</View>
+		<View id="daysView"/>
+		<View id="datesView"/>
+	</View>
+</Alloy>

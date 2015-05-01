@@ -1,0 +1,18 @@
+".container": {
+	backgroundImage:'images/global/founderslibrhoward1.jpg',
+	exitOnClose: true
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+"Button": {
+	borderColor: 'grey',
+	borderWidth: '.5em',
+	width: '60%',
+	color: 'black',
+}
+"Label[platform=ios]": { 
+  color: 'blue' 
+}

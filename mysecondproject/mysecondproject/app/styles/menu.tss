@@ -1,0 +1,48 @@
+"#winHome":{
+    backgroundColor: 'red',
+    zIndex: 0
+}
+"#leftView":{
+    height: '100%',
+    width:'50%',
+    top: 0,
+    left: 0,
+    backgroundColor: 'blue',
+    zIndex: 0
+},
+ 
+".tblView":{
+    left: 0,
+    top: 0,//'45dp',
+    bottom :0,
+    scrollable: false,
+    backgroundColor: '#282725',
+    width: '100%',
+},
+ 
+"#mainView":{
+    top: 0,
+    zIndex: 2,
+    height: '100%',
+    width : '100%',
+    left : 0,
+    backgroundColor: 'pink',
+}
+ 
+"#navView":{
+    top: 0,
+    backgroundImage: 'barImg.png',  //   put your image path here
+    height: "50dp",
+    width: '100%',
+},
+ 
+"#btnLeft":{
+    image: ' btnImage.png',  //  put your image path here
+    left: "10dp",
+    top: "14dp",
+    title : "left",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    style: 'PLAIN',
+    backgroundColor: 'transparent'
+}

@@ -1,0 +1,13 @@
+{
+	"id": "Calendar",
+	"name": "Calendar",
+	"description": "A simple calendar widget for titanium alloy",
+	"author": "Ishan Singh",
+	"version": "1.0",
+	"copyright": " (c) Copyright 2014 ishan.singh. All Rights Reserved.",
+	"license": "Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version": "2.1",
+	"tags": "",
+	"platforms": "android,blackberry,ios,mobileweb,tizen"
+}

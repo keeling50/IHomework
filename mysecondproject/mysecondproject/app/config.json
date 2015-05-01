@@ -1,0 +1,12 @@
+{
+  "global": {},
+  "env:development": {},
+  "env:test": {},
+  "env:production": {},
+  "os:ios": {},
+  "os:android": {},
+  "dependencies": {
+    "Calendar": "1.0",
+    "jp.co.mountposition.calendar": "1.0"
+  }
+}

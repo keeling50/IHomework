@@ -1,0 +1,9 @@
+<Alloy>
+	<Collection src="assignment"/> 
+	<Window id='mainWindow' class='container' exitOnClose='true' title='Sample App'>
+		<TableView dataCollection="assignment">
+            <TableViewRow title="{title}" author="{author}" onClick="showAssignment"></TableViewRow>
+        </TableView>
+		<Button id='logoutBtn' onClick="doLogout" top="50dp">Logout</Button>
+	</Window>
+</Alloy>

@@ -1,0 +1,9 @@
+<Alloy>
+    <Window id="win3" title="Menu" backgroundColor="white">
+    	<Button id="calbutton" top="10">Calendar</Button>
+    	<Button onClick="closeWindow" top="50">Classes</Button>
+    	<Button id="notebutton" top="90">Notes</Button>
+    	<Button id="assbutton" top="130">Assignment</Button>
+        <Button onClick="closeWindow" bottom="10">Close Menu</Button>
+    </Window>
+</Alloy>

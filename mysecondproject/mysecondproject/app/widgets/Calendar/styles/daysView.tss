@@ -1,0 +1,10 @@
+"#dayView":{
+	backgroundColor:'transparent',
+	height:Ti.UI.FILL,
+	width:'14%'
+},
+"#dayname":{
+	color:'#424242',
+	textAlign:'center',
+	font:{fontSize:12}
+}

@@ -1,0 +1,7 @@
+<Alloy>
+	<Tab title="Calendar">
+			<Window id='calWindow' title="Calendar">
+				<Label>Calendar Tab</Label>
+			</Window>
+		</Tab>
+</Alloy>

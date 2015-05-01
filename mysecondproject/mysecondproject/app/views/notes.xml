@@ -1,0 +1,9 @@
+<Alloy>
+	<Tab title="Notes">
+			<Window id='notesWindow' title="Notes">
+				<Label>Notes Tab</Label>
+				
+
+			</Window>
+		</Tab>
+</Alloy>

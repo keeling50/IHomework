@@ -1,0 +1,17 @@
+<Alloy>
+	<Collection src="assignment"/> 
+	<NavigationWindow id="navGroupWin">
+	<Window id='mainWindow' class='container' exitOnClose='true' title='Classes'>
+		<TableView dataCollection="assignment">
+            <TableViewRow title="{title}" author="{author}" onClick="showAssignment"></TableViewRow>
+        </TableView>
+    	<RightNavButton>
+        <Button id="add" title="New " onClick="addassignment"/>
+    	</RightNavButton>
+    	<LeftNavButton>
+        <Button id="menu" title="Menu " onClick="openBlueWindow"/>
+    	</LeftNavButton>
+		<Button id='logoutBtn' onClick="doLogout" bottom="50dp">Logout</Button>
+	</Window>
+	</NavigationWindow>
+</Alloy>

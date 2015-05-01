@@ -1,0 +1,13 @@
+"#dateView":{
+	height : Ti.UI.FILL,
+	width : '14%',
+	backgroundColor : '#FFFFFF',
+	borderColor : '#A3A4AE'
+},
+"#dateLabel":{
+	color : '#424242',
+	font : {
+		fontSize : 13
+	},
+	textAlign : 'center'
+}

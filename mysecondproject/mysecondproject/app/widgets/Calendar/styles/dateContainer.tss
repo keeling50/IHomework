@@ -1,0 +1,6 @@
+"#dateContainer":{
+	height : '16%',
+	width : Ti.UI.FILL,
+	backgroundColor : 'transparent',
+	layout : 'horizontal'
+}

@@ -1,0 +1,6 @@
+<Alloy>
+			<Window id='assWindow' title="assignment" class="container">
+				<Label>Assignment Tab</Label>
+				
+			</Window>
+</Alloy>

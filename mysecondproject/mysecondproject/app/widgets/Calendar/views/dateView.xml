@@ -1,0 +1,5 @@
+<Alloy>
+	<View id="dateView">
+		<Label id="dateLabel"/>
+	</View>
+</Alloy>
